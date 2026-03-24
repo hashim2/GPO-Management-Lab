@@ -19,3 +19,10 @@ This project demonstrates the end-to-end implementation of a Windows Server 2022
 * **Systems Administration:** Windows Server 2022, AD DS, DNS.
 * **Security Engineering:** GPO Hardening, Least Privilege Access.
 * **Network Management:** IPv4 Subnetting, Internal Routing.
+
+* ### Infrastructure Visualization
+#### GPO Hierarchy & Linking (Screenshot 03)
+![GPO Hierarchy](03_GPO_Hierarchy.jpg)
+
+#### User Targeting (Screenshot 04)
+![User Targeting](04_User_Targeting.jpg)
