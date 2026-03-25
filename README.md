@@ -27,7 +27,6 @@ This project demonstrates the end-to-end implementation of a Windows Server 2022
 
 
 #### User Targeting (Screenshot 04)
-
 <img width="1030" height="774" alt="04 - GPO security filtering " src="https://github.com/user-attachments/assets/793aacbc-95e2-43fb-a12c-e2a14e49b067" />
 
 
