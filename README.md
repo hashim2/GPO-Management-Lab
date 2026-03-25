@@ -22,7 +22,8 @@ This project demonstrates the end-to-end implementation of a Windows Server 2022
 
 * ### Infrastructure Visualization
 #### GPO Hierarchy & Linking (Screenshot 03)
-![GPO Hierarchy](<img width="1021" height="759" alt="03- Active Directory Hierarchy   GPO linking" src="https://github.com/user-attachments/assets/91b751a4-00c5-47d3-ae63-267c8c283de6" />
+![GPO Hierarchy]
+<img width="1021" height="759" alt="03- Active Directory Hierarchy   GPO linking" src="https://github.com/user-attachments/assets/91b751a4-00c5-47d3-ae63-267c8c283de6" />
 
 
 #### User Targeting (Screenshot 04)
