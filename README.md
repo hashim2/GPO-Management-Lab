@@ -1,6 +1,6 @@
 # GPO-Management-Lab
 
-Description
+## Description
 
 This project demonstrates the end-to-end implementation of a Windows Server 2022 Active Directory Domain Services (AD DS) environment. The primary objective was to architect a scalable organizational structure and deploy a suite of Group Policy Objects (GPOs) to enforce security, automate workflows, and standardize the user environment across an enterprise network.
 
@@ -24,7 +24,8 @@ This project demonstrates the end-to-end implementation of a Windows Server 2022
 #### GPO Infastructure & Organizational Unit (OU) Hierarchy
 
 <img width="1021" height="759" alt="03- Active Directory Hierarchy   GPO linking" src="https://github.com/user-attachments/assets/91b751a4-00c5-47d3-ae63-267c8c283de6" />
-Description: In this phase, I designed a custom Organizational Unit (OU) hierarchy to logically separate departments and administrative functions. As shown in the Group Policy Management Console (GPMC):
+## Description: 
+In this phase, I designed a custom Organizational Unit (OU) hierarchy to logically separate departments and administrative functions. As shown in the Group Policy Management Console (GPMC):
 
 OU Structure: Created dedicated OUs for _ADMINS, _USERS, and specific policy categories to ensure a clean, manageable directory.
 
@@ -42,7 +43,7 @@ Controlled Deployment: This ensures that the specific settings within this GPO a
 Best Practices: This approach reflects real-world administrative standards where security policies are tested on specific pilot users before being rolled out to the entire organization.
 ##### GPO Validation
 <img width="1026" height="771" alt="04- Applied GPO proof" src="https://github.com/user-attachments/assets/9224e3b8-89fa-41b9-baee-8edcd9030039" />
-Description:
+## Description:
 To confirm that the domain policies were successfully deployed to the end-user workstation, I executed the gpresult /r command on the Client VM.
 
 Successful Propagation: The output confirms that the Desktop Wallpaper, Drive Mapping, and Restrict Control Panel GPOs have been successfully applied under the 'Applied Group Policy Objects' section.
@@ -52,4 +53,11 @@ Trust Relationship: This verification proves that the Client machine is properly
 Environment Integrity: This step is a critical administrative task used to ensure that security baselines are being met across the network.
 ##### Functional Verification: Administrative Lockdown & Enforcement 
 <img width="1021" height="766" alt="Restrict Control Panel GPO proof" src="https://github.com/user-attachments/assets/69e98d61-3f05-4391-beaf-df8bad0335ff" />
+## Description:
+To provide definitive proof of policy enforcement, I attempted to access system settings on the Client VM using a standard user account.
 
+Hardened Security: As shown in the screenshot, the operating system successfully blocked the request, displaying the 'Restrictions' dialogue. This confirms that the Restrict Control Panel GPO is active and preventing unauthorized configuration changes.
+
+Environment Synchronization: While the Desktop Wallpaper GPO was successfully pushed to the client (as verified by gpresult), the black desktop indicates a common real-world 'Pathing' or 'UNC' access hurdle.
+
+Troubleshooting Insight: In a production environment, this would be the next phase of resolution—verifying that the client has the necessary NTFS Permissions to read the image file from the Domain Controller's shared folder. This demonstration proves a deep understanding of both policy enforcement and resource accessibility.
