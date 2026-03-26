@@ -24,7 +24,6 @@ This project demonstrates the end-to-end implementation of a Windows Server 2022
 #### GPO Infastructure & Organizational Unit (OU) Hierarchy
 
 <img width="1021" height="759" alt="03- Active Directory Hierarchy   GPO linking" src="https://github.com/user-attachments/assets/91b751a4-00c5-47d3-ae63-267c8c283de6" />
-
 Description: In this phase, I designed a custom Organizational Unit (OU) hierarchy to logically separate departments and administrative functions. As shown in the Group Policy Management Console (GPMC):
 
 OU Structure: Created dedicated OUs for _ADMINS, _USERS, and specific policy categories to ensure a clean, manageable directory.
