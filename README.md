@@ -40,4 +40,7 @@ Granular Control: As shown in the 'Scope' tab for the Password Policy, I explici
 Controlled Deployment: This ensures that the specific settings within this GPO are only applied to the intended user account, rather than every authenticated user in the domain.
 
 Best Practices: This approach reflects real-world administrative standards where security policies are tested on specific pilot users before being rolled out to the entire organization.
+##### GPO Validation
+<img width="1026" height="771" alt="04- Applied GPO proof" src="https://github.com/user-attachments/assets/9224e3b8-89fa-41b9-baee-8edcd9030039" />
+
 
