@@ -32,6 +32,12 @@ Policy Creation: Developed five custom Group Policy Objects—including Drive Ma
 
 Granular Linking: Demonstrated the ability to link specific GPOs to their respective OUs, ensuring that security restrictions and environmental settings are applied only to the targeted user groups through GPO Inheritance.
 #### User Targeting 
-<img width="1030" height="774" alt="04 - GPO security filtering " src="https://github.com/user-attachments/assets/793aacbc-95e2-43fb-a12c-e2a14e49b067" />
+<img width="1030" height="774" alt="04 - GPO security filtering " src="https://github.com/user-attachments/assets/793aacbc-95e2-43fb-a12c-e2a14e49b067" />Description:
+"To demonstrate precise policy enforcement, I utilized Security Filtering within the Group Policy Management Console.
 
+Granular Control: As shown in the 'Scope' tab for the Password Policy, I explicitly added the user hsufi (MYDOMAIN\hsufi) to the security filter.
+
+Controlled Deployment: This ensures that the specific settings within this GPO are only applied to the intended user account, rather than every authenticated user in the domain.
+
+Best Practices: This approach reflects real-world administrative standards where security policies are tested on specific pilot users before being rolled out to the entire organization."
 
