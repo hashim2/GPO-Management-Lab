@@ -21,11 +21,17 @@ This project demonstrates the end-to-end implementation of a Windows Server 2022
 * **Network Management:** IPv4 Subnetting, Internal Routing.
 
 * ### Infrastructure Visualization
-#### GPO Hierarchy & Linking
+#### GPO Infastructure & Organizational Unit (OU) Hierarchy
 
 <img width="1021" height="759" alt="03- Active Directory Hierarchy   GPO linking" src="https://github.com/user-attachments/assets/91b751a4-00c5-47d3-ae63-267c8c283de6" />
 
+Description: In this phase, I designed a custom Organizational Unit (OU) hierarchy to logically separate departments and administrative functions. As shown in the Group Policy Management Console (GPMC):
 
+OU Structure: Created dedicated OUs for _ADMINS, _USERS, and specific policy categories to ensure a clean, manageable directory.
+
+Policy Creation: Developed five custom Group Policy Objects—including Drive Mapping, Restrict Control Panel, and Disable USB Storage—stored within the 'Group Policy Objects' container for centralized management.
+
+Granular Linking: Demonstrated the ability to link specific GPOs to their respective OUs, ensuring that security restrictions and environmental settings are applied only to the targeted user groups through GPO Inheritance.
 #### User Targeting 
 <img width="1030" height="774" alt="04 - GPO security filtering " src="https://github.com/user-attachments/assets/793aacbc-95e2-43fb-a12c-e2a14e49b067" />
 
