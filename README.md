@@ -28,7 +28,7 @@ Description: In this phase, I designed a custom Organizational Unit (OU) hierarc
 
 OU Structure: Created dedicated OUs for _ADMINS, _USERS, and specific policy categories to ensure a clean, manageable directory.
 
-Policy Creation: Developed five custom Group Policy Objects—including Drive Mapping, Restrict Control Panel, and Disable USB Storage—stored within the 'Group Policy Objects' container for centralized management.
+Policy Creation: Developed five custom Group Policy Objects—including Drive Mapping, Restrict Control Panel, and Disable USB Storage (stored within the 'Group Policy Objects' container for centralized management.)
 
 Granular Linking: Demonstrated the ability to link specific GPOs to their respective OUs, ensuring that security restrictions and environmental settings are applied only to the targeted user groups through GPO Inheritance.
 #### User Targeting 
