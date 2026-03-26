@@ -50,4 +50,6 @@ Successful Propagation: The output confirms that the Desktop Wallpaper, Drive Ma
 Trust Relationship: This verification proves that the Client machine is properly communicating with the Domain Controller and that the Inheritance settings are correctly filtering down to the user account.
 
 Environment Integrity: This step is a critical administrative task used to ensure that security baselines are being met across the network.
+##### Functional Verification: Administrative Lockdown & Enforcement 
+<img width="1021" height="766" alt="Restrict Control Panel GPO proof" src="https://github.com/user-attachments/assets/69e98d61-3f05-4391-beaf-df8bad0335ff" />
 
